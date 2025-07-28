@@ -1,0 +1,191 @@
+/* Estilos para el componente de gestión de docentes */
+
+.card {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card-header {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.table th {
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+.table td {
+  vertical-align: middle;
+  font-size: 0.875rem;
+}
+
+.badge {
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.btn-group-sm .btn {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #86b7fe;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+.alert {
+  border-radius: 0.375rem;
+}
+
+.pagination .page-link {
+  color: #0d6efd;
+  border: 1px solid #dee2e6;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.pagination .page-item.disabled .page-link {
+  color: #6c757d;
+  pointer-events: none;
+  background-color: #fff;
+  border-color: #dee2e6;
+}
+
+/* Estilos para los iconos */
+.fas {
+  font-size: 0.875rem;
+}
+
+/* Estilos para los mensajes de validación */
+.text-danger.small {
+  font-size: 0.75rem;
+}
+
+/* Estilos para el spinner de carga */
+.spinner-border {
+  width: 2rem;
+  height: 2rem;
+}
+
+/* Estilos para el estado vacío */
+.fa-inbox {
+  opacity: 0.5;
+}
+
+/* Estilos para los filtros */
+.form-select-sm {
+  font-size: 0.875rem;
+}
+
+/* Estilos para los botones de acción */
+.btn-outline-primary:hover,
+.btn-outline-danger:hover {
+  transform: translateY(-1px);
+  transition: transform 0.2s ease;
+}
+
+/* Estilos para los badges de estado */
+.bg-success {
+  background-color: #198754 !important;
+}
+
+.bg-warning {
+  background-color: #ffc107 !important;
+  color: #000 !important;
+}
+
+.bg-primary {
+  background-color: #0d6efd !important;
+}
+
+.bg-info {
+  background-color: #0dcaf0 !important;
+  color: #000 !important;
+}
+
+/* Estilos para los iconos de estado */
+.text-success {
+  color: #198754 !important;
+}
+
+.text-danger {
+  color: #dc3545 !important;
+}
+
+/* Estilos para el formulario */
+.form-label {
+  font-weight: 500;
+  color: #495057;
+}
+
+.text-muted {
+  color: #6c757d !important;
+}
+
+/* Estilos para la tabla responsive */
+.table-responsive {
+  border-radius: 0.375rem;
+}
+
+/* Estilos para los botones de paginación */
+.page-link {
+  cursor: pointer;
+}
+
+.page-link:hover {
+  background-color: #e9ecef;
+}
+
+/* Estilos para el contenedor principal */
+.container {
+  max-width: 1200px;
+}
+
+/* Estilos para los mensajes de alerta */
+.alert-dismissible .btn-close {
+  padding: 0.75rem 1rem;
+}
+
+/* Estilos para los campos de formulario */
+.form-control,
+.form-select {
+  border-radius: 0.375rem;
+}
+
+/* Estilos para los checkboxes */
+.form-check-input:checked {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+/* Estilos para los textareas */
+textarea.form-control {
+  resize: vertical;
+  min-height: 80px;
+}
+
+/* Estilos para los botones de acción en la tabla */
+.btn-group .btn {
+  border-radius: 0.25rem;
+}
+
+/* Estilos para el header de la tabla */
+.table-dark th {
+  background-color: #212529;
+  border-color: #373b3e;
+}
+
+/* Estilos para las filas de la tabla */
+.table-striped > tbody > tr:nth-of-type(odd) > td {
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+.table-hover > tbody > tr:hover > td {
+  background-color: rgba(0, 0, 0, 0.075);
+} 
